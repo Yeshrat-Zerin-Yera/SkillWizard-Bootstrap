@@ -61,7 +61,7 @@
         </nav>
         <!-- Banner Carousel -->
         <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner rounded">
                 <div class="carousel-item active">
                     <img src="images/banners/banner-1.jpg" class="d-block w-100" alt="Image of a boy studying online">
                     <div class="carousel-caption d-none d-md-block h-50">
@@ -230,13 +230,17 @@
         <!-- About Us -->
         <div class="container">
             <div class="card mb-3 border-0" id="about">
-                <div class="row gx-5 gy-0">
-                    <div class="col-md-6">
-                        <img src="images/about-us/about.jpg" class="w-100 h-100 rounded"
+                <div class="row gx-5 gy-0 h-100">
+                    <div class="col-md-4">
+                        <img src="images/about-us/about-1.jpg"
+                            class="w-100 h-100 rounded d-none d-sm-none d-md-block d-lg-block"
+                            alt="Image of a person working on laptop" style="min-width:200px;">
+                        <img src="images/about-us/about-2.jpg"
+                            class="w-100 h-100 rounded d-block d-sm-block d-md-none d-lg-none"
                             alt="Image of a person working on laptop">
                     </div>
-                    <div class="col-md-6 py-5">
-                        <div class="card-body row justify-content-center align-items-center" id="about-content">
+                    <div class="col-md-8 px-4 py-2">
+                        <div class="card-body">
                             <h1 class="fs-2 fw-bold text-secondary">Learn more about us</h1>
                             <p class="text-secondary lh-lg">Founded in 2020, SkillWizard is a provider of massiveopen
                                 online
@@ -263,6 +267,7 @@
                                     <p class="text-secondary">Ratings & Reviews</p>
                                 </div>
                             </div>
+                            <button class="btn btn-warning text-white px-5 py-2">Read More</button>
                         </div>
                     </div>
                 </div>

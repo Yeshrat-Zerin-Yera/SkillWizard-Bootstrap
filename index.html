@@ -22,7 +22,7 @@
 
 <body>
     <!-- Header Section -->
-    <Header>
+    <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-white py-5">
             <div class="container">
@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images//banners/banner-3.jpg" class="d-block w-100" alt="Image of a boy studying online">
+                    <img src="images/banners/banner-3.jpg" class="d-block w-100" alt="Image of a boy studying online">
                     <div class="carousel-caption d-none d-md-block h-50">
                         <h2>Enroll In Our Free Courses</h2>
                         <p>We provide free courses to make education more accessible.</p>
@@ -98,13 +98,13 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </Header>
+    </header>
 
     <!-- Main Section -->
     <main>
         <!-- Explore Courses -->
         <div class="container my-5 pt-5">
-            <h1 class="text-center fs-2 fw-bold text-secondary">Explore Our Courses</h1>
+            <h1 class="text-center fs-1 fw-bold text-secondary">Explore Our Courses</h1>
             <p class="text-center text-secondary">Students of all ages can select from a variety of collections of
                 courses on
                 skill development.<br> Our courses undergo frequent updates.</p>
@@ -228,9 +228,9 @@
         </div>
 
         <!-- About Us -->
-        <div class="container">
+        <div class="container pt-5">
             <div class="card mb-3 border-0" id="about">
-                <div class="row gx-5 gy-0 h-100">
+                <div class="row h-100">
                     <div class="col-md-4">
                         <img src="images/about-us/about-1.jpg"
                             class="w-100 h-100 rounded d-none d-sm-none d-md-block d-lg-block"
@@ -239,8 +239,8 @@
                             class="w-100 h-100 rounded d-block d-sm-block d-md-none d-lg-none"
                             alt="Image of a person working on laptop">
                     </div>
-                    <div class="col-md-8 px-4 py-2">
-                        <div class="card-body">
+                    <div class="col-md-8">
+                        <div class="card-body p-4">
                             <h1 class="fs-1 fw-bold text-secondary">Learn more about us</h1>
                             <p class="text-secondary lh-lg">Founded in 2020, SkillWizard is a provider of massiveopen
                                 online
@@ -275,63 +275,117 @@
         </div>
 
         <!-- Join Us -->
-        <div
-            class="container mx-auto my-5 bg-warning p-5 row justify-content-center align-items-center rounded text-center text-sm-center text-md-center text-lg-start">
-            <div class="col-md-12 col-lg-8">
-                <h1 class="fs-1 fw-bold text-white">Join us now</h1>
-                <p class="text-white fw-bold">Join us in your journey to become more knowledgeable. Get our
-                    membership for free.</p>
-            </div>
-            <div class="col-md-12 col-lg-4">
-                <!-- Modal Button -->
-                <button class="btn bg-white fw-bold text-warning px-5 py-2" data-bs-toggle="modal"
-                    data-bs-target="#modalSignin">Registration</button>
-                <!-- Modal Signin Form -->
-                <div class="container">
-                    <div class="modal fade modal-signin" tabindex="-1" role="dialog" id="modalSignin">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content rounded shadow">
-                                <div class="modal-header p-5 pb-0 border-bottom-0">
-                                    <h2 class="fs-5 fw-bold mb-2">Sign Up For Free</h2>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body p-5 pt-0">
-                                    <form class="">
-                                        <div class="form-floating mb-2">
-                                            <input type="email" class="form-control rounded" id="floatingInput"
-                                                placeholder="name@example.com">
-                                            <label for="floatingInput">Email address</label>
-                                        </div>
-                                        <div class="form-floating mb-2">
-                                            <input type="password" class="form-control rounded" id="floatingPassword"
-                                                placeholder="Password">
-                                            <label for="floatingPassword">Password</label>
-                                        </div>
-                                        <button class="w-100 mb-2 btn rounded btn-warning text-white" type="submit">Sign
-                                            Up</button>
-                                        <small class="text-muted">You accept the terms of usage by clicking Sign
-                                            Up.</small>
-                                        <hr class="my-4">
-                                        <h2 class="fs-5 fw-bold mb-2">Or Use A Third Party</h2>
-                                        <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded" type="submit">
-                                            <img src="images/icons/twitter.svg" alt="Image of twitter logo">
-                                            Sign up with Twitter
-                                        </button>
-                                        <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded" type="submit">
-                                            <img src="images/icons/facebook.svg" alt="Image of facebook logo">
-                                            Sign up with Facebook
-                                        </button>
-                                        <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded" type="submit">
-                                            <img src="images/icons/github.svg" alt="Image of github logo">
-                                            Sign up with GitHub
-                                        </button>
-                                    </form>
+        <div class="container pt-5">
+            <div
+                class="my-5 bg-warning p-5 row justify-content-center align-items-center rounded text-center text-sm-center text-md-center text-lg-start">
+                <div class="col-md-12 col-lg-8">
+                    <h1 class="fs-1 fw-bold text-white">Join us now</h1>
+                    <p class="text-white fw-bold">Join us in your journey to become more knowledgeable. Get our
+                        membership for free.</p>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <!-- Modal Button -->
+                    <button class="btn bg-white fw-bold text-warning px-5 py-2" data-bs-toggle="modal"
+                        data-bs-target="#modalSignin">Registration</button>
+                    <!-- Modal Signin Form -->
+                    <div class="container">
+                        <div class="modal fade modal-signin" tabindex="-1" role="dialog" id="modalSignin">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content rounded shadow">
+                                    <div class="modal-header p-5 pb-0 border-bottom-0">
+                                        <h2 class="fs-5 fw-bold mb-2">Sign Up For Free</h2>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body p-5 pt-0">
+                                        <form class="">
+                                            <div class="form-floating mb-2">
+                                                <input type="email" class="form-control rounded" id="floatingInput"
+                                                    placeholder="name@example.com">
+                                                <label for="floatingInput">Email address</label>
+                                            </div>
+                                            <div class="form-floating mb-2">
+                                                <input type="password" class="form-control rounded"
+                                                    id="floatingPassword" placeholder="Password">
+                                                <label for="floatingPassword">Password</label>
+                                            </div>
+                                            <button class="w-100 mb-2 btn rounded btn-warning text-white"
+                                                type="submit">Sign
+                                                Up</button>
+                                            <small class="text-muted">You accept the terms of usage by clicking Sign
+                                                Up.</small>
+                                            <hr class="my-4">
+                                            <h2 class="fs-5 fw-bold mb-2">Or Use A Third Party</h2>
+                                            <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded" type="submit">
+                                                <img src="images/icons/twitter.svg" alt="Image of twitter logo">
+                                                Sign up with Twitter
+                                            </button>
+                                            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded"
+                                                type="submit">
+                                                <img src="images/icons/facebook.svg" alt="Image of facebook logo">
+                                                Sign up with Facebook
+                                            </button>
+                                            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded"
+                                                type="submit">
+                                                <img src="images/icons/github.svg" alt="Image of github logo">
+                                                Sign up with GitHub
+                                            </button>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Successfull Student -->
+        <div class="container my-5 pt-5">
+            <h1 class="text-center text-lg-start text-md-start fs-1 fw-bold text-secondary">Successfull Students</h1>
+            <p class="text-center text-lg-start text-md-start text-secondary">Your success motivates us to put in more
+                effort and build a stronger
+                platform for you.</p>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mb-4 mt-2">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/students/student-1.jpg" class="card-img-top" alt="Image of a student">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary fw-bold">Ayden Sadik</h5>
+                            <p class="card-text text-secondary">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/students/student-2.jpg" class="card-img-top" alt="Image of a student">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary fw-bold">Ceylan Jones</h5>
+                            <p class="card-text text-secondary">Data Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-sm-none d-md-block d-lg-block">
+                    <div class="card h-100">
+                        <img src="images/students/student-3.jpg" class="card-img-top" alt="Image of a student">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary fw-bold">Wren Taylor</h5>
+                            <p class="card-text text-secondary">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/students/student-4.jpg" class="card-img-top" alt="Image of a student">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary fw-bold">Aspen Young</h5>
+                            <p class="card-text text-secondary">Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center my-2">
+                <button class="btn btn-warning text-white px-5 py-2">View More</button>
             </div>
         </div>
     </main>
